@@ -20,7 +20,7 @@ class ProductSerializerTestCase(TestCase):
                 'slug':'adidas-1120',
                 'status':'in stock',
                 'price':'1000.00',
-                'image':None,
+                'image':'Неверный путь для файла/нет файла',
                 'category': category1.id,
             },
             {
@@ -30,7 +30,7 @@ class ProductSerializerTestCase(TestCase):
                 'slug': 'versace-2230',
                 'status': 'in stock',
                 'price' : '2000.00',
-                'image': None,
+                'image': 'Неверный путь для файла/нет файла',
                 'category': category2.id,
             }
         ]
